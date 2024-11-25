@@ -1,0 +1,118 @@
+/* Colores de la web*/
+:root {
+    --color-de-fondo: #95b46a;
+    --color-barra-lateral: #3e5622;
+    --color-headeryfooter: #709255;
+    --colorfondocontenido: #80b979;
+    --colortexto: #ffffff;
+}
+
+*{
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+  
+::-webkit-scrollbar-track {
+    background: var(--color-barra-lateral);
+}
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 12px; 
+    background: var(--color-headeryfooter);
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: var(--colorfondocontenido);
+}
+
+body{
+    color: var(--colortexto);
+    background-color: var(--color-de-fondo)
+}
+
+header {
+    background-color: var(--color-headeryfooter);
+    text-align: center;
+    font-size: 150%;
+    padding-left: 14%;
+}
+footer {
+    position: fixed;
+    background-color: var(--color-headeryfooter);
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+
+nav {
+    background-color: var(--color-barra-lateral);
+    float: left;
+    margin-top: auto;
+    text-align: center;
+    
+    margin: 0% 8% 0% 0%;
+    padding: 10% 0% 10% 0%;
+    position: fixed;
+}
+
+nav ul{
+    list-style: none;
+    font-size: 120%;
+    line-height: 2;
+    margin-right: 15px;
+    margin-left: 15px; 
+    padding-left: 0px; 
+}
+
+.Provincia{
+
+    background-color: var(--color-barra-lateral);
+    margin: 2%;
+    margin-left: 15%;
+    padding: 1%;
+}
+
+.Provincia img{
+
+    width: 80%;
+    margin: 5%;
+}
+
+.Provincia img:hover{
+
+    transform: scale(1.1);
+}
+
+.Provincia h2{
+    padding: 1.5%;
+    font-size: 250%;
+    background-color: var(--color-barra-lateral);
+    text-align: center;    
+}
+
+.Paisajes {
+    background-color: var(--color-de-fondo);
+    text-align: center;
+    padding:1%;
+}
+.Paisaje{
+    background-color: var(--colorfondocontenido);
+    text-align: center;
+    padding: 0% 0% 1% 0%;
+    margin: 2%;
+}
+
+.Paisaje p{
+    padding: 1%;
+    font-size: 110%;
+}
+
+.Paisaje h3{
+    padding: 2%;
+    font-size: 150%;
+    background-color: var(--color-headeryfooter);
+    text-align: center;
+}
